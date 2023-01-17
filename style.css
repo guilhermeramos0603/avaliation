@@ -1,0 +1,122 @@
+#container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+#container #topbar {
+    height: 48px;
+    background-color: #4F4D53;
+}
+
+#logo {
+    position: absolute;
+    top: 2%;
+    left: 32%;
+}
+
+
+#container #hero {
+    height: 550px;
+    width: 100%;
+}
+
+#container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: #4F4D53;
+    position: absolute;
+    top: 145px;
+    right: 30%;
+
+}
+
+#container #lisa {
+    position: absolute;
+    top: 500px;
+    left: 30%;
+}
+
+#container #danielle {
+    position: absolute;
+    top: 500px;
+    left: 46%;
+}
+
+#container #brian {
+    position: absolute;
+    top: 500px;
+    left: 62%;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+
+}
+
+#title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 63px;
+    color: #E8BE02;
+
+}
+
+#body {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+
+}
+
+#body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #4F4D53;
+    text-align: center;
+}
+
+#footer {
+    background-color: #4F4D53;
+    position: absolute;
+    top: 155%;
+    width: 100%;
+    height: 320px;
+
+}
+
+#footer #footer-bar {
+    height: 12px;
+    background-color: #E8BE02;
+}
+
+#footer #text-column {
+    position: relative;
+    top: 20%;
+    right: -25%;
+    width: 60%;
+    column-count: 4;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #E8BE02;
+    margin-top: 0;
+
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#join {
+    position: relative;
+    top: 25%;
+    right: -25%;
+}
